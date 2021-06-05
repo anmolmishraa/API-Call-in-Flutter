@@ -5,7 +5,7 @@ import 'Response.dart';
 import 'package:http/http.dart' as http;
 
 class ApiServiceProvider {
-  final _BASE_URL = "https://jsonplaceholder.typicode.com/photos";
+  final _BASE_URL = "Your Api";
 
   Future<Response> getUser() async {
     var response = await http.get(_BASE_URL);
